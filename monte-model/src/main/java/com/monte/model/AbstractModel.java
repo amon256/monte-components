@@ -3,32 +3,31 @@
  * 作者: fengmengyue
  * 创建日期: 2014年12月29日
  */
-package org.monte.model;
+package com.monte.model;
 
-import java.io.Serializable;
 
 /**
  * 所有模型基类，带有统一ID属性，即物理主键。
  * @author fengmengyue
  *
  */
-public abstract class AbstractModel<T extends Serializable> {
+public abstract class AbstractModel {
 	/**
 	 * ID
 	 */
-	private T id;
+	private String id;
 
 	/**
 	 * ID
 	 */
-	public T getId() {
+	public String getId() {
 		return id;
 	}
 
 	/**
 	 * ID
 	 */
-	public void setId(T id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 }
