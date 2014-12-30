@@ -13,7 +13,7 @@
 		<compile-target-version>1.7</compile-target-version><!-- 编译输出版本 -->
 		<spring-version>4.0.3.RELEASE</spring-version><!-- spring版本 -->
 		<mybatis-version>3.2.7</mybatis-version><!-- mybatis版本 -->
-		<mybatis-spring-version>1.2.2</mybatis-spring-version>
+		<mybatis-spring-version>1.2.2</mybatis-spring-version><!-- mybatis-spring版本 -->
 	</properties>
 	<modules>
 		<module>monte-model</module>
